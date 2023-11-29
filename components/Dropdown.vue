@@ -1,9 +1,7 @@
 <script lang="ts" setup>
 import { category } from "~/composables/constants/category";
-
 const isShow = ref(false);
 defineEmits(["selectedCategory"]);
-
 </script>
 
 <template>
